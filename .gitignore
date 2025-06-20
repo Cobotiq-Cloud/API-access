@@ -1,0 +1,11 @@
+# Ignore output CSV files
+*.csv
+
+gaussian_reports_last30d.csv
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# macOS system files
+.DS_Store

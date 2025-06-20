@@ -21,6 +21,9 @@ from dateutil import tz
 
 CLIENT_ID        = "Ij8YFXHbRapgwvNbpoR8Jp7RJv"
 CLIENT_SECRET    = "JEegVIfiGmNuUoN6JSuMNfFLrGNUIpJGKTyDO3Erbp68JnxowXg7vmpBPk"
+ACCESS_KEY_ID  = "6276595e-4d49-11f0-99de-094b5041c301"   
+ACCESS_KEY_SECRET = "57e3438905f8a7c9bd46d8c451515087"    
+
 OPEN_ACCESS_KEY  = os.getenv("OPEN_ACCESS_KEY")          # <-- fill in!
 SN_LIST          = [
     "GS438-6160-ACQ-R200",
