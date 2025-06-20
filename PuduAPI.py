@@ -25,7 +25,7 @@ SN        = "866035107050015"
 DAYS      = 30
 PAGE_LIMIT= 20   # must be 1–20
 TZ_OFFSET = 0
-CSV_OUT   = f"pudu_{SN}.csv"
+CSV_OUT   = "pudu.csv"
 
 # ─── 4) SIGNING UTIL  ───────────────────────────────────────────────
 GMT_FMT  = "%a, %d %b %Y %H:%M:%S GMT"
@@ -166,7 +166,6 @@ for t in rows:
         "Water Usage (gal)":       round(d.get("cost_water",0)/1000*L_GAL,3),
         # Battery: end battery + battery used = start battery
         "End Battery (%)":         d.get("battery"),         # :contentReference[oaicite:7]{index=7}
-        "Battery Usage":           d.get("cost_battery"),    # :contentReference[oaicite:8]{index=8}
         "Start Battery (%)":       (
                                        d.get("battery",0)
                                      + d.get("cost_battery",0)
