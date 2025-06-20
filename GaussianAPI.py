@@ -30,9 +30,9 @@ SN_LIST          = [
     "GS401-6120-ACQ-H000",
     "GS142-0230-G1P-P000",
 ]
-DAYS_BACK        = 30                                    # how far to look
+DAYS_BACK        = 70                                    # how far to look
 PAGE_SIZE        = 200                                   # API max 200
-CSV_OUT          = "gausium_reports_last30d.csv"         # set to None to skip
+CSV_OUT          = "gausium.csv"         # set to None to skip
 
 # ------------- CONSTANTS & HELPERS ------------------------------------
 
